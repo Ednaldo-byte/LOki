@@ -21,7 +21,7 @@
   - [JS](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
   ## 🖇 Executar o Projeto
-  Para executar o projeto <a href="https://ednaldo-byte.github.io/Studio-Ghibli/">clique aqui</a> ou clone o repositório usando o código abaixo no terminal
+  Para executar o projeto <a href="https://ednaldo-byte.github.io/Studio-Ghibli/">clique aqui</a> ou clone o repositório usando o comando abaixo no terminal
   ```
   git clone https://github.com/Ednaldo-byte/Loki.git
   ```
