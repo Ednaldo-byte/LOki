@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loki</title>
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style/modal.css">
+</head>
+<body>
+
+  <header>
+    Está disponível agora
+  </header>
+
+  <main>
+    <div class="logo">
+      <a href="https://www.disneyplus.com/pt-br/series/loki/6pARMvILBGzF" target="_blank"><img src="assets/logo.png" alt="Logo Loki"></a>
+    </div>
+    <div class="content">
+      <span id="poster">
+        <img src="assets/posterLoki.jpg" alt="">
+      </span>
+      <div class="informations">
+        <p id="sinopse">
+          Em “Loki” da Marvel Studios, o vilão mercurial Loki (Tom Hiddleston) retoma seu papel como o Deus do Mal em uma nova série que ocorre após os eventos de “Vingadores: Endgame”. 
+        </p>
+        <div class="about">
+          <div class="time">
+            <img src="assets/clock.svg" alt="">
+            51min
+          </div>
+          <div class="stars">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <p>2021</p>
+        </div>
+        <div class="buttons">
+          <a href="https://www.disneyplus.com/pt-br/series/loki/6pARMvILBGzF" target="_blank">
+            Assistir agora
+          </a>
+          <button onclick="show_hide()">
+            Trailer
+          </button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <div class="modal invisible">
+    <iframe class="iframe invisible" width="560" height="315" src="https://www.youtube.com/embed/nW948Va-l10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <span id="close" class="invisible" onclick="show_hide()">Fechar</span>
+  </div>
+  
+</body>
+</html>
+
+<script src="script/script.js"></script>
